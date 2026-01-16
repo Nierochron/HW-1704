@@ -1,0 +1,19 @@
+#gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+img {
+    max-width: 350px;
+}
+
+#loadMore{
+    background-color: rgb(43, 107, 255);
+    padding: 10px 20px;
+    display: block;
+    margin: 60px auto;
+    color: rgb(255, 255, 255);
+    border: 0;
+}
