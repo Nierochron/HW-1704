@@ -36,7 +36,6 @@ async function loadImages() {
         });
 
         if (page * perPage >= total) {
-            loadMoreBtn.disabled = true;
             loadMoreBtn.textContent = 'Більше немає зображень';
         }
 
